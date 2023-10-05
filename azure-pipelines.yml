@@ -37,7 +37,7 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: 'Azure subscription 1 (b19e7d32-5d70-4421-87a0-3294258cd94f)'
+    azureSubscription: 'Azure for Students(8d9f7e14-b296-4dd7-a82d-cdf5ed7b65a7)'
     appType: 'webApp'
-    WebAppName: 'librarywebapi3rdsemester'
+    WebAppName: 'HelloLibraryWebAPI'
     packageForLinux: '$(build.artifactStagingDirectory)\WebApp.zip'
