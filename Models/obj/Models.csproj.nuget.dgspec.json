@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lokaladministrator\\Documents\\GitHub\\WebLibraryAPI\\Models\\Models.csproj": {}
+    "C:\\Users\\lukas\\RiderProjects\\WebLibraryAPI\\Models\\Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lokaladministrator\\Documents\\GitHub\\WebLibraryAPI\\Models\\Models.csproj": {
+    "C:\\Users\\lukas\\RiderProjects\\WebLibraryAPI\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lokaladministrator\\Documents\\GitHub\\WebLibraryAPI\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\lukas\\RiderProjects\\WebLibraryAPI\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\lokaladministrator\\Documents\\GitHub\\WebLibraryAPI\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\lokaladministrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lokaladministrator\\Documents\\GitHub\\WebLibraryAPI\\Models\\obj\\",
+        "projectPath": "C:\\Users\\lukas\\RiderProjects\\WebLibraryAPI\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukas\\RiderProjects\\WebLibraryAPI\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lokaladministrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +51,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[7.0.9, 7.0.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

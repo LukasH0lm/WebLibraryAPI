@@ -16,7 +16,7 @@ public class Program
         // Add services to the container.
 
         builder.Services.AddDbContext<LibraryContext>(opts => 
-            opts.UseSqlite("Data Source=./MyLibrary.db"));
+            opts.UseSqlServer("Server=library-api-server.database.windows.net,1433;Initial Catalog=LibraryAPI;Persist Security Info=False;User ID=Lukas;Password=Zaveni123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"));
         builder.Services.AddAutoMapper(typeof(Program));
         
         // Services
